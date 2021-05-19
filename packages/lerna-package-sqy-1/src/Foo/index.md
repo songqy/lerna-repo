@@ -5,7 +5,7 @@ Demo:
 
 ```tsx
 import React from 'react';
-import { Foo } from 'admin-component-2';
+import { Foo } from 'lerna-package-sqy-1';
 
 export default () => <Foo title="First Demo" />;
 ```
