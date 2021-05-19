@@ -1,10 +1,10 @@
 
 # dependencies
-/node_modules
+node_modules
 /npm-debug.log*
 /yarn-error.log
-/yarn.lock
-/package-lock.json
+yarn.lock
+package-lock.json
 
 # misc
 .DS_Store
@@ -19,16 +19,16 @@
 .npmrc
 src
 
-.fatherrc.js
-.umirc.js
+.fatherrc.ts
+.umirc.ts
 
 .prettierrc
 .prettierignore
 
 # production
-/dist
-/docs-dist
-/docs
+dist
+docs-dist
+docs
 
 # scripts
-/scripts
+scripts
