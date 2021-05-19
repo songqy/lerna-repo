@@ -2,7 +2,8 @@
   "name": "lerna-repo",
   "private": true,
   "scripts": {
-    "build": "father-build"
+    "build": "father-build",
+    "publish": "npx lerna publish"
   },
   "devDependencies": {
     "lerna": "^4.0.0",

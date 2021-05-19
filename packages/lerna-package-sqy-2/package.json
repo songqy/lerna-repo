@@ -2,10 +2,12 @@
   "name": "lerna-package-sqy-2",
   "version": "1.0.4",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "main": "lib/index.js",
+  "module": "es/index.js",
+  "typings": "index.d.ts",
   "author": "",
   "license": "ISC",
   "gitHead": "f4cb85a2049fd8266a5988a6cf656ed7523b48e4"
