@@ -1,23 +1,15 @@
 {
   "name": "lerna-package-sqy-1",
   "version": "1.0.11",
-  "scripts": {
-    "start": "dumi dev",
-    "docs:build": "dumi build",
-    "docs:deploy": "gh-pages -d docs-dist",
-    "build": "father-build",
-    "deploy": "npm run docs:build && npm run docs:deploy",
-    "release": "npm run build && npm publish",
-    "prettier": "prettier --write \"**/*.{js,jsx,tsx,ts,less,md,json}\"",
-    "test": "umi-test",
-    "test:coverage": "umi-test --coverage"
-  },
+  "scripts": {},
   "main": "lib/index.js",
   "module": "es/index.js",
   "typings": "index.d.ts",
-  "gitHooks": {
-    "pre-commit": "lint-staged"
-  },
+  "files": [
+    "lib",
+    "es",
+    "package.json"
+  ],
   "lint-staged": {
     "*.{js,jsx,less,md,json}": [
       "prettier --write"

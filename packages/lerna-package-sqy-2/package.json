@@ -5,6 +5,11 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "files": [
+    "lib",
+    "es",
+    "package.json"
+  ],
   "main": "lib/index.js",
   "module": "es/index.js",
   "typings": "index.d.ts",
