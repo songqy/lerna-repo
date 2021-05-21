@@ -2,13 +2,10 @@
   "name": "lerna-repo",
   "private": true,
   "scripts": {
-    "start1":"cd packages/lerna-package-sqy-1 && dumi dev",
-    "build1":"cd packages/lerna-package-sqy-1 && father-build",
     "build": "father-build",
     "pb": "lerna publish"
   },
   "devDependencies": {
-    "lerna": "^4.0.0",
     "@types/hoist-non-react-statics": "^3.3.1",
     "@types/react": "^17.0.6",
     "@types/react-color": "^3.0.4",
@@ -19,6 +16,9 @@
     "dumi": "^1.0.14",
     "father-build": "^1.17.2",
     "gh-pages": "^3.0.0",
+    "lerna": "^4.0.0",
+    "lerna-package-sqy-1": "^1.0.12",
+    "lerna-package-sqy-2": "^1.0.9",
     "lint-staged": "^10.0.7",
     "moment": "^2.29.1",
     "prettier": "^2.2.1",

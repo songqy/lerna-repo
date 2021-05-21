@@ -8643,6 +8643,16 @@ lead@^1.0.0:
   dependencies:
     flush-write-stream "^1.0.2"
 
+lerna-package-sqy-1@^1.0.12:
+  version "1.0.12"
+  resolved "https://registry.yarnpkg.com/lerna-package-sqy-1/-/lerna-package-sqy-1-1.0.12.tgz#a971328edf2493dc63e08b550d92cb43db60cea5"
+  integrity sha512-o4YZXc7/Pvsh40tl/vKv/6E6no4ljxCB15h1fDQ00G0bQAQ9kQIrcLsgOys3nU9Rfbp1ZISbF3JXo+CI1tzhgg==
+
+lerna-package-sqy-2@^1.0.9:
+  version "1.0.9"
+  resolved "https://registry.yarnpkg.com/lerna-package-sqy-2/-/lerna-package-sqy-2-1.0.9.tgz#2d7204020cb4f0f02dd82ddf0fa963c1b072bd2e"
+  integrity sha512-i8SSMGA2M3gIKrPFrmzHj9b6WqlU2uW422HKbqDSTg+WG7CJRbpB7vK3WBZkqVawV1lp4Os9WKpneT16s3IDRw==
+
 lerna@^4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/lerna/-/lerna-4.0.0.tgz#b139d685d50ea0ca1be87713a7c2f44a5b678e9e"
