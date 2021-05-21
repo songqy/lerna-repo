@@ -5,7 +5,7 @@
     "start1":"cd packages/lerna-package-sqy-1 && dumi dev",
     "build1":"cd packages/lerna-package-sqy-1 && father-build",
     "build": "father-build",
-    "pb": "npx lerna publish"
+    "pb": "lerna publish"
   },
   "devDependencies": {
     "lerna": "^4.0.0",
